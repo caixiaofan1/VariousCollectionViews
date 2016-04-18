@@ -73,7 +73,7 @@
 		23B32F531CC4D2BC00AD7DA1 /* APLCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B32F4D1CC4D2BC00AD7DA1 /* APLCollectionViewController.m */; };
 		23B32F541CC4D2BC00AD7DA1 /* APLTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B32F4F1CC4D2BC00AD7DA1 /* APLTransitionController.m */; };
 		23B32F551CC4D2BC00AD7DA1 /* APLTransitionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B32F511CC4D2BC00AD7DA1 /* APLTransitionLayout.m */; };
-		23D9627C1CC4D6E800F18BFA /* tesefvw.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D9627B1CC4D6E800F18BFA /* tesefvw.m */; };
+		23D9627F1CC4D89800F18BFA /* fewge.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D9627E1CC4D89800F18BFA /* fewge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -179,8 +179,8 @@
 		23B32F4F1CC4D2BC00AD7DA1 /* APLTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLTransitionController.m; sourceTree = "<group>"; };
 		23B32F501CC4D2BC00AD7DA1 /* APLTransitionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLTransitionLayout.h; sourceTree = "<group>"; };
 		23B32F511CC4D2BC00AD7DA1 /* APLTransitionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLTransitionLayout.m; sourceTree = "<group>"; };
-		23D9627A1CC4D6E800F18BFA /* tesefvw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tesefvw.h; sourceTree = "<group>"; };
-		23D9627B1CC4D6E800F18BFA /* tesefvw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tesefvw.m; sourceTree = "<group>"; };
+		23D9627D1CC4D89800F18BFA /* fewge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fewge.h; sourceTree = "<group>"; };
+		23D9627E1CC4D89800F18BFA /* fewge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fewge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +248,8 @@
 				23B32F501CC4D2BC00AD7DA1 /* APLTransitionLayout.h */,
 				23B32F511CC4D2BC00AD7DA1 /* APLTransitionLayout.m */,
 				23B32F481CC4D29000AD7DA1 /* ViewController.xib */,
+				23D9627D1CC4D89800F18BFA /* fewge.h */,
+				23D9627E1CC4D89800F18BFA /* fewge.m */,
 				23B32EF31CC4D16900AD7DA1 /* Images */,
 				23B32EDC1CC4D14800AD7DA1 /* CircleLayoutViewController.m */,
 				23B32EDD1CC4D14800AD7DA1 /* CXFCollectionViewCell.h */,
@@ -272,8 +274,6 @@
 				23B32EAF1CC4D0AD00AD7DA1 /* LaunchScreen.storyboard */,
 				23B32EB21CC4D0AD00AD7DA1 /* Info.plist */,
 				23B32EA11CC4D0AD00AD7DA1 /* Supporting Files */,
-				23D9627A1CC4D6E800F18BFA /* tesefvw.h */,
-				23D9627B1CC4D6E800F18BFA /* tesefvw.m */,
 			);
 			path = "各种collectionview集合";
 			sourceTree = "<group>";
@@ -525,6 +525,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D9627F1CC4D89800F18BFA /* fewge.m in Sources */,
 				23B32EEC1CC4D14800AD7DA1 /* CXFCollectionViewCell.m in Sources */,
 				23B32EF11CC4D14800AD7DA1 /* SubCollectionViewLayout.m in Sources */,
 				23B32F521CC4D2BC00AD7DA1 /* APLCollectionViewCell.m in Sources */,
@@ -533,7 +534,6 @@
 				23B32F551CC4D2BC00AD7DA1 /* APLTransitionLayout.m in Sources */,
 				23B32EA61CC4D0AD00AD7DA1 /* AppDelegate.m in Sources */,
 				23B32F541CC4D2BC00AD7DA1 /* APLTransitionController.m in Sources */,
-				23D9627C1CC4D6E800F18BFA /* tesefvw.m in Sources */,
 				23B32EEB1CC4D14800AD7DA1 /* CircleLayoutViewController.m in Sources */,
 				23B32EA31CC4D0AD00AD7DA1 /* main.m in Sources */,
 				23B32EEF1CC4D14800AD7DA1 /* NormalLayoutViewController.m in Sources */,

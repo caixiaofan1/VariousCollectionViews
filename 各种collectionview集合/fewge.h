@@ -1,5 +1,5 @@
 //
-//  tesefvw.h
+//  fewge.h
 //  各种collectionview集合
 //
 //  Created by 蔡晓凡 on 16/4/18.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface tesefvw : UIViewController
+@interface fewge : UIViewController
 
 @end
