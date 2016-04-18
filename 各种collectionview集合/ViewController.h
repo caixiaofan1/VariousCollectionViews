@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "APLTransitionController.h"
+@interface ViewController : UITableViewController <UINavigationControllerDelegate,APLTransitionControllerDelegate>
+@property (nonatomic, strong) APLTransitionController *transitionController;
 
 @end
 
